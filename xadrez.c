@@ -15,7 +15,7 @@ int main() {
 
     // torre
     printf("Movimentação da TORRE (5 casas para a direita)\n");
-    for(int i =0; i < 5; i++){
+    for(int i = 0; i < 5; i++){
         printf("DIREITA\n");
     }
 
@@ -38,6 +38,23 @@ int main() {
         printf("CIMA\n");
         r++;
     }while(r < 6);
+
+    printf("\n");
+
+    //cavalo 
+    printf("Movimentação do CAVALO (2 casas para baixo e 1 para a esquerda)\n");
+    for( int c = 0; c < 2; c++){
+        printf("BAIXO\n");
+
+        if(c == 1 ){
+                int c = 0; 
+                while(c < 1){
+                printf("ESQUERDA\n");
+                c++;
+            }
+       
+        }
+    } 
 
     return 0;
 }
